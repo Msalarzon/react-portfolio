@@ -1,0 +1,21 @@
+/* Projects.css */
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  .project-container {
+    width: 300px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .project-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  

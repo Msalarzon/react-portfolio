@@ -1,0 +1,15 @@
+[
+    {
+      "title": "Project 1",
+      "deployedLink": "https://example.com/project1",
+      "githubLink": "https://github.com/example/project1",
+      "image": "https://placekitten.com/300/150"
+    },
+    {
+      "title": "Project 2",
+      "deployedLink": "https://example.com/project2",
+      "githubLink": "https://github.com/example/project2",
+      "image": "https://placekitten.com/300/150"
+    }
+  ]
+  

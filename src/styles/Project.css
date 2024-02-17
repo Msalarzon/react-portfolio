@@ -1,0 +1,10 @@
+/* Project.css */
+.project-container {
+    text-align: center;
+  }
+  
+  .project-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
