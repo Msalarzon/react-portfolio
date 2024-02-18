@@ -1,40 +1,91 @@
-/* styles/Home.css */
+/* Home.css */
 
-.home-container {
+/* Heading Name Styles */
+h2.display-4 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+/* Image Styles */
+.img-container {
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  height: 100vh;
-  background-color: #f8f8f8;
+  justify-content: flex-start;
 }
 
-.home-title {
-  font-size: 3rem;
-  margin-bottom: 20px;
-  color: #333;
+.profile-image {
+  width: 30%;
+  height: 30%;
+  margin-top: 0%;
+  margin-right: 5%;
 }
 
-.home-description {
-  font-size: 1.5rem;
-  text-align: center;
-  max-width: 800px;
-  margin-bottom: 40px;
-  color: #555;
+.text-container {
+  text-align: left;
 }
 
-.home-button {
-  padding: 15px 30px;
-  font-size: 1.2rem;
-  background-color: #3498db;
+/* Button Styles */
+.btn-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.btn-container .btn {
+  margin-top: 10%;
+  margin-right: 10px;
+  padding: 10px 20px; 
+  font-size: 16px;
+  background-color: #F39C12; 
   color: #fff;
-  text-decoration: none;
   border: none;
-  border-radius: 8px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, text-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
 }
 
-.home-button:hover {
-  background-color: #2980b9;
+.btn-container .btn:hover {
+  background-color: #E67E22; 
+  color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ 
+}
+
+.btn-container .btn-custom-color {
+  background-color: #6C7A89; 
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.btn-container .btn-custom-color:hover {
+  background-color: #4E5A65; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3); 
+}
+
+/* Skills Section Styles */
+
+.skills-section h4 {
+  font-size: 24px; 
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+  margin-top: 5%;
+}
+
+.skills-list {
+  margin-top: 2%;
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around; 
+}
+
+.skills-list li {
+  font-size: 16px;
+}
+
+.skills-list i {
+  margin-right: 5px;
 }

@@ -1,0 +1,48 @@
+/* Header.css */
+
+/* Styles for the header */
+header {
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  nav a::before,
+  nav a::after {
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background-color: #ffd700;
+    transition: width 0.3s ease-out;
+  }
+  
+  nav a::before {
+    top: 0;
+    left: 0;
+  }
+  
+  nav a::after {
+    bottom: 0;
+    right: 0;
+  }
+  
+  nav a:hover::before,
+  nav a:hover::after {
+    width: 50%; 
+  }
+  
+  nav a:hover {
+    font-weight: bold;
+  }
+  
