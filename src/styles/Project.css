@@ -2,6 +2,7 @@
 
 .project-container {
   width: 350px;
+  height: 600px;
   margin-top: 4%;
   text-align: left;
   padding: 20px;
@@ -26,7 +27,7 @@ h3 {
 }
 
 p {
-  font-size: 1.1em;
+  font-size: 16px;
   text-align: center;
 }
 
@@ -44,16 +45,19 @@ img {
   max-width: 100%;
   height: auto;
   margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 /* Container Buttons Styles */
 .project-container .button-container {
   display: flex;
-  justify-content: space-around; 
-  width: 100%; 
+  flex-direction: row;
+  align-items: center;
+  margin-top: auto;
 }
 
 .project-container button {
+  margin: 10px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding: 8px 16px;
