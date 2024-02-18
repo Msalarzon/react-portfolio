@@ -7,7 +7,7 @@ body, html {
   background-image: url('../images/background-laptop.jpeg'); 
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #333; 
 }
