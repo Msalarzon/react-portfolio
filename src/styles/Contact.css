@@ -1,5 +1,11 @@
 /* Contact.css */
 
+/* Styles for contact-wrapper */
+.contact-wrapper {
+  display: flex;
+}
+
+/* Styles for contact-container */
 .contact-container {
   width: 350px;
   height: 480px;
@@ -72,4 +78,61 @@
   background-color: #E67E22;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+
+/* Styles for contact-info-card - My Links */
+.contact-info-card {
+  width: 250px;
+  height: 200px;
+  margin-left: 20px;
+  margin-top: 4%;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(to bottom, #6C7A89, #333);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info-card h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact-info-card a {
+  display: flex;
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.contact-info-card a:hover {
+  color: yellow;
+}
+
+.contact-info-card svg {
+  margin-right: 10px;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .contact-wrapper {
+    flex-direction: column; 
+    align-items: center;
+  }
+
+  .contact-container,
+  .contact-info-card {
+    width: 80%;
+    margin-left: 0; 
+    margin-top: 2%;
+}
 }
