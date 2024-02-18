@@ -19,7 +19,7 @@ function Home() {
         <div className="text-container ml-3">
           <h2 className="display-4">Meriam</h2>
           <p className="lead">
-            Junior Web Developer
+          ★ Emerging Code Specialist ★       
           </p>
           <div className="btn-container d-flex mt-2">
             <Link to="/projects" className="btn btn-primary btn-lg mr-2">

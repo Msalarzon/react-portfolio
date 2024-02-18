@@ -1,21 +1,38 @@
 [
-    {
-      "title": "Hotel Horizon",
-      "deployedLink": "https://leesoohang.github.io/hotel-horizon/",
-      "githubLink": "https://github.com/leesoohang/hotel-horizon",
-      "image": "https://placekitten.com/300/150"
-    },
-    {
-      "title": "City Weather Hub",
-      "deployedLink": "https://msalarzon.github.io/city-weather-hub/",
-      "githubLink": "https://github.com/Msalarzon/city-weather-hub?tab=readme-ov-file",
-      "image": "https://placekitten.com/300/150"
-    },
-    {
-      "title": "Build-a-README",
-      "deployedLink": "https://msalarzon.github.io/Code-Quiz/",
-      "githubLink": "https://github.com/Msalarzon/Code-Quiz",
-      "image": "https://placekitten.com/300/150"
-    }
-  ]
-  
+  {
+    "title": "Hotel Horizon",
+    "deployedLink": "https://leesoohang.github.io/hotel-horizon/",
+    "githubLink": "https://github.com/leesoohang/hotel-horizon",
+    "image": "https://placekitten.com/300/150"
+  },
+  {
+    "title": "City Weather Hub",
+    "deployedLink": "https://msalarzon.github.io/city-weather-hub/",
+    "githubLink": "https://github.com/Msalarzon/city-weather-hub?tab=readme-ov-file",
+    "image": "https://placekitten.com/300/150"
+  },
+  {
+    "title": "Build-a-README",
+    "deployedLink": "https://msalarzon.github.io/Code-Quiz/",
+    "githubLink": "https://github.com/Msalarzon/Code-Quiz",
+    "image": "https://placekitten.com/300/150"
+  },
+  {
+    "title": "Project 4",
+    "deployedLink": "https://example.com/project4/",
+    "githubLink": "https://github.com/example/project4",
+    "image": "https://placekitten.com/300/150"
+  },
+  {
+    "title": "Project 5",
+    "deployedLink": "https://example.com/project5/",
+    "githubLink": "https://github.com/example/project5",
+    "image": "https://placekitten.com/300/150"
+  },
+  {
+    "title": "Project 6",
+    "deployedLink": "https://example.com/project6/",
+    "githubLink": "https://github.com/example/project6",
+    "image": "https://placekitten.com/300/150"
+  }
+]
