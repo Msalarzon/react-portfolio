@@ -7,8 +7,8 @@ import '../styles/Projects.css';
 function Projects() {
   return (
     <div className="projects-container">
-      {projectsData.map((project, index) => (
-        <Project key={index} {...project} />
+      {projectsData.map((project) => (
+        <Project key={project.title} {...project} />
       ))}
     </div>
   );

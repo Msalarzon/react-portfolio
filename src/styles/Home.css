@@ -7,7 +7,7 @@ h2.display-4 {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
 }
 
-/* Image Styles */
+/* Profile Picture - Image Styles */
 .img-container {
   display: flex;
   align-items: center;
@@ -25,7 +25,7 @@ h2.display-4 {
   text-align: left;
 }
 
-/* Button Styles */
+/* Main Button Styles */
 .btn-container {
   display: flex;
   flex-direction: row;
@@ -51,7 +51,7 @@ h2.display-4 {
   background-color: #E67E22; 
   color: #fff;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
- 
+  text-decoration: none;
 }
 
 .btn-container .btn-custom-color {
@@ -67,15 +67,14 @@ h2.display-4 {
 }
 
 /* Skills Section Styles */
-
 .skills-section h4 {
-  font-size: 24px; 
+  font-size: 20px; 
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 .skills-list {
-  margin-top: 2%;
+  margin-top: 1%;
   list-style: none;
   padding: 0;
   display: flex;

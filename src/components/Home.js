@@ -34,7 +34,7 @@ function Home() {
 
       {/* Skills Section */}
       <div className="skills-section mt-4">
-        <h4>Skills</h4>
+        <h4>Skills:</h4>
         <ul className="skills-list">
           <li><FontAwesomeIcon icon={faHtml5} /> HTML</li>
           <li><FontAwesomeIcon icon={faCss3} /> CSS</li>
