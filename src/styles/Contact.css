@@ -1,25 +1,75 @@
 /* Contact.css */
+
 .contact-container {
-    text-align: center;
-    padding: 20px;
-  }
-  
-  .contact-container form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 20px;
-  }
-  
-  .contact-container label,
-  .contact-container input,
-  .contact-container textarea,
-  .contact-container button {
-    margin-bottom: 10px;
-  }
-  
-  .additional-info {
-    margin-top: 20px;
-    text-align: left;
-  }
-  
+  width: 350px;
+  height: 480px;
+  margin-left: 10%;
+  margin-top: 4%;
+  text-align: left;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background: linear-gradient(to bottom, #6C7A89, #333);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.contact-container h2 {
+  font-size: 1.8em;
+  margin-bottom: 15px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.contact-container p {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.contact-container form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-container label {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.contact-container input,
+.contact-container textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  font-size: 1em;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-container button {
+  padding: 8px 16px;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, text-shadow 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: #F39C12;
+}
+
+.contact-container button:hover {
+  background-color: #E67E22;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
