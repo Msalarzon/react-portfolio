@@ -31,15 +31,15 @@ function Contact() {
       {/* Contact Information Card */}
       <div className="contact-info-card">
         <h2>My Links</h2>
-        <a href="https://github.com/your-github-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/Msalarzon" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} />
           GitHub
         </a>
-        <a href="https://linkedin.com/in/your-linkedin-profile" target="_blank" rel="noopener noreferrer">
+        <a href="https://www.linkedin.com/in/mbsalarzon/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faLinkedin} />
           LinkedIn
         </a>
-        <a href="/path-to-your-cv.pdf" download>
+        <a href="/cv/meriam-cv.pdf" download>
           <FontAwesomeIcon icon={faFileDownload} />
           Download CV
         </a>
