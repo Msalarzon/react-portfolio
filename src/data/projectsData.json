@@ -1,38 +1,44 @@
 [
   {
     "title": "Hotel Horizon",
-    "deployedLink": "https://leesoohang.github.io/hotel-horizon/",
+    "deployedLink": "https://leesoohang.github.io/hotel-horizon",
     "githubLink": "https://github.com/leesoohang/hotel-horizon",
-    "image": "https://placekitten.com/300/150"
+    "image": "../images/hotel-horizon.png",
+    "description": "Collaborative project streamlining hotel booking for business travelers. Search, explore, and bookmark favorites with Google Places and Booking.com APIs. Developed with HTML, JavaScript, and CSS for a simplified hotel planning experience."
   },
   {
     "title": "City Weather Hub",
-    "deployedLink": "https://msalarzon.github.io/city-weather-hub/",
+    "deployedLink": "https://msalarzon.github.io/city-weather-hub",
     "githubLink": "https://github.com/Msalarzon/city-weather-hub?tab=readme-ov-file",
-    "image": "https://placekitten.com/300/150"
+    "image": "../images/city-weather-hub.png",
+    "description": "Simple and user-friendly weather forecast application that allows users to check the current weather and a 5-day forecast for a specific city."
   },
   {
-    "title": "Build-a-README",
-    "deployedLink": "https://msalarzon.github.io/Code-Quiz/",
+    "title": "Build a README",
+    "deployedLink": "https://drive.google.com/file/d/1sSYI_zIvlBiwRb7L-aF9qT8O3Jwx8IBt/view",
+    "githubLink": "https://github.com/Msalarzon/build-a-README",
+    "image": "../images/build-a-readme.png",
+    "description": "Simplify the process of creating basic README files for your projects. This command-line application uses the Inquirer package to dynamically generate a professional README.md file based on your input."
+  },
+  {
+    "title": "Code Quiz",
+    "deployedLink": "https://msalarzon.github.io/Code-Quiz",
     "githubLink": "https://github.com/Msalarzon/Code-Quiz",
-    "image": "https://placekitten.com/300/150"
+    "image": "../images/code-quiz-challenge.png",
+    "description": "A beginner-friendly JavaScript-based quiz introducing web development fundamentals. Explore coding concepts, get instant feedback, and view your score. "  
   },
   {
-    "title": "Project 4",
-    "deployedLink": "https://example.com/project4/",
-    "githubLink": "https://github.com/example/project4",
-    "image": "https://placekitten.com/300/150"
+    "title": "Easy Plan Tracker",
+    "deployedLink": "https://msalarzon.github.io/Easy-Plan-Tracker",
+    "githubLink": "https://github.com/Msalarzon/Easy-Plan-Tracker",
+    "image": "../images/easy-plan-tracker.png",
+    "description": "A very basic, simple and straightforward work/business calendar app designed to help users manage their daily schedules and events. (In progress)"  
   },
   {
-    "title": "Project 5",
-    "deployedLink": "https://example.com/project5/",
-    "githubLink": "https://github.com/example/project5",
-    "image": "https://placekitten.com/300/150"
-  },
-  {
-    "title": "Project 6",
-    "deployedLink": "https://example.com/project6/",
-    "githubLink": "https://github.com/example/project6",
-    "image": "https://placekitten.com/300/150"
+    "title": "Bootstrap Portfolio",
+    "deployedLink": "https://msalarzon.github.io/Bootstrap-Portfolio",
+    "githubLink": "https://github.com/Msalarzon/Bootstrap-Portfolio",
+    "image": "../images/bootstrap-portfolio.png",
+    "description": "A personal portfolio using Bootstrap CSS Framework to gain hands-on experience in HTML, CSS, GitHub, and GitHub Pages."  
   }
 ]
