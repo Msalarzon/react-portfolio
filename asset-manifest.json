@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.b8d23213.css",
+    "main.js": "/react-portfolio/static/js/main.42be6a12.js",
+    "static/js/453.bb257cf5.chunk.js": "/react-portfolio/static/js/453.bb257cf5.chunk.js",
+    "static/media/city-weather-hub.png": "/react-portfolio/static/media/city-weather-hub.4969047089144c8762c6.png",
+    "static/media/hotel-horizon.png": "/react-portfolio/static/media/hotel-horizon.71d93bf0044bba01ef0b.png",
+    "static/media/bootstrap-portfolio.png": "/react-portfolio/static/media/bootstrap-portfolio.4a176b07695ea124e5db.png",
+    "static/media/background-laptop.jpeg": "/react-portfolio/static/media/background-laptop.1b5aa2629b748c201e4b.jpeg",
+    "static/media/profile-pic.png": "/react-portfolio/static/media/profile-pic.f2e7f880a9b279ceb2ed.png",
+    "static/media/easy-plan-tracker.png": "/react-portfolio/static/media/easy-plan-tracker.495b3929291f43f52afc.png",
+    "static/media/build-a-readme.png": "/react-portfolio/static/media/build-a-readme.ce5141347698eb4aec22.png",
+    "static/media/code-quiz-challenge.png": "/react-portfolio/static/media/code-quiz-challenge.d90c59258942e52bdced.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.b8d23213.css.map": "/react-portfolio/static/css/main.b8d23213.css.map",
+    "main.42be6a12.js.map": "/react-portfolio/static/js/main.42be6a12.js.map",
+    "453.bb257cf5.chunk.js.map": "/react-portfolio/static/js/453.bb257cf5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8d23213.css",
+    "static/js/main.42be6a12.js"
+  ]
+}
