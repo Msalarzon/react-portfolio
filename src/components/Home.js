@@ -47,7 +47,7 @@ function Home() {
 
       {/* Footer Section */}
       <footer className="mt-5 text-center">
-        <p>&copy; Meriam {new Date().getFullYear()}</p>
+        <p>&copy; Meriam Bojang Salarzon {new Date().getFullYear()}</p>
       </footer>
     </div>
   );
