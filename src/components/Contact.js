@@ -1,11 +1,35 @@
-// Contact.js
-import React from 'react';
+import React, { useState } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import '../styles/Contact.css';
 
 function Contact() {
+  const [formData, setFormData] = useState({
+    name: '',
+    email: '',
+    message: '',
+  });
+
+  const handleInputChange = (e) => {
+    setFormData({
+      ...formData,
+      [e.target.name]: e.target.value,
+    });
+  };
+
+  const handleEmailLink = () => {
+    const { name, email, message } = formData;
+
+    const subject = encodeURIComponent('New Contact Form Submission');
+    const body = encodeURIComponent(
+      `Name: ${name}\nEmail: ${email}\nMessage: ${message}\n`
+    );
+    const mailtoLink = `mailto:mbsalarzon@gmail.com?subject=${subject}&body=${body}`;
+
+    window.location.href = mailtoLink;
+  };
+
   return (
     <div className="contact-wrapper">
       {/* Contact Me Card */}
@@ -16,15 +40,34 @@ function Contact() {
         </p>
         <form>
           <label htmlFor="name">Name:</label>
-          <input type="text" id="name" name="name" placeholder="Your Name" />
+          <input
+            type="text"
+            id="name"
+            name="name"
+            placeholder="Your Name"
+            onChange={handleInputChange}
+          />
 
           <label htmlFor="email">Email:</label>
-          <input type="email" id="email" name="email" placeholder="Your Email" />
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Your Email"
+            onChange={handleInputChange}
+          />
 
           <label htmlFor="message">Message:</label>
-          <textarea id="message" name="message" placeholder="Your Message"></textarea>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="Your Message"
+            onChange={handleInputChange}
+          ></textarea>
 
-          <button type="submit">Send Message</button>
+          <button type="button" onClick={handleEmailLink}>
+            Send Message
+          </button>
         </form>
       </div>
 
