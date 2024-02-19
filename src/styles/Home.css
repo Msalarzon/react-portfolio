@@ -19,6 +19,16 @@ h2.display-4 {
   height: 30%;
   margin-top: 0%;
   margin-right: 5%;
+  animation: grayscaleAnimation 4s infinite alternate ease-in-out;
+}
+
+@keyframes grayscaleAnimation {
+  0% {
+    filter: grayscale(0%);
+  }
+  100% {
+    filter: grayscale(100%);
+  }
 }
 
 .text-container {
